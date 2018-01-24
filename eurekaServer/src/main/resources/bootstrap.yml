@@ -1,0 +1,20 @@
+# Spring configuration
+spring:
+   application:
+      name: eureka-server
+         
+# HTTP Server
+server:
+   port: 1001
+
+# Eureka Server
+eureka:
+   client:
+      register-with-eureka: false
+      fetch-registry: false
+
+# Logging
+logging:
+   level:
+      com.netflix.eureka: OFF
+      com.netflix.discovery: OFF         
